@@ -11,10 +11,10 @@ To hook up all the physical components, first you will gather the parts, then yo
 * 1 x [Arduino Uno](https://www.robomart.com/image/catalog/RM0058/02.jpg).
 * 3 x [resistors](http://www.goldmine-elec-products.com/images/G440RB.jpg) with the right resistance values (see below).
 * 1 x [RGB LED](https://i.stack.imgur.com/QCE8X.png).
-* 4 x [male-to-male jumper wires](https://cdn.solarbotics.com/products/photos/03e0f1ccebb02b4dc5cc17e395d3049b/45040-dscn0624.jpg?w=800) or [standard stripped wires](https://cdn.instructables.com/FZ8/V12B/GYVDJLMY/FZ8V12BGYVDJLMY.MEDIUM.jpg). If the wire colors are red, blue, green, and black, it will make debugging easier, but is not strictly necessary.
+* 4 x [male-to-male jumper wires](https://cdn.solarbotics.com/products/photos/03e0f1ccebb02b4dc5cc17e395d3049b/45040-dscn0624.jpg?w=800) or [stripped wires](https://cdn.instructables.com/FZ8/V12B/GYVDJLMY/FZ8V12BGYVDJLMY.MEDIUM.jpg). If the wire colors are red, blue, green, and black, it will make debugging easier, but is not strictly necessary.
 * 1 x breadboard. They come in [half size](https://cdn-shop.adafruit.com/970x728/64-00.jpg) and [full size](https://www.electrokit.com/public/upload/productimage/41936-8616-4.jpg), either one is fine.
 
-**Arduino Uno**:
+**Arduino Uno**: The Arduino Uno is a board that allows you to connect a programmable microcontroller (the ATmega328, which is labeled in [this diagram](http://www.jtagelectronics.com/wp-content/uploads/2015/08/Arduino-Uno-R3-with-Part-Labels.jpg)) to electrical circuits. You can program the Arduino Uno using the [Arduino IDE](http://learn.linksprite.com/wp-content/uploads/2013/11/Arduino1Blink.png). Depending on what your program is, the microcontroller will change the voltage on these electrical circuits, which can be used to transmit information or control other components on the circuits.
 
 **Resistors**: The most important thing about resistors for the purposes of this tutorial is that they can keep our LEDs from burning out. Our resistors are 220 Ohms. You can tell by putting their band color sequence (red, red, brown, gold) into a [resistor value calculator](http://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band). We picked 220 Ohms based on the properties of the particular RGB LEDs that we bought. A different LED might need a different resistor. If you want to learn more about resistors and how we picked the resistance value, you can scroll to the very bottom of this tutorial.
 
