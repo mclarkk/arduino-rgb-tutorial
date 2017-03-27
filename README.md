@@ -16,13 +16,15 @@ To hook up all the physical components, first you will gather the parts, then yo
 
 **Arduino Uno**: The Arduino Uno is a board that allows you to connect a programmable microcontroller (the ATmega328, which is labeled in [this diagram](http://www.jtagelectronics.com/wp-content/uploads/2015/08/Arduino-Uno-R3-with-Part-Labels.jpg)) to electrical circuits. You can program the Arduino Uno using the [Arduino IDE](http://learn.linksprite.com/wp-content/uploads/2013/11/Arduino1Blink.png). Depending on what your program is, the microcontroller will change the voltage on these electrical circuits, which can be used to transmit information or control other components on the circuits.
 
-**Resistors**: The most important thing about resistors for the purposes of this tutorial is that they can keep our LEDs from burning out. Our resistors are 220 Ohms. You can tell by putting their band color sequence (red, red, brown, gold) into a [resistor value calculator](http://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band). We picked 220 Ohms based on the properties of the particular RGB LEDs that we bought. A different LED might need a different resistor. If you want to learn more about resistors and how we picked the resistance value, you can scroll to the very bottom of this tutorial.
+**Resistors**: The most important thing about resistors for the purposes of this tutorial is that they can keep our LEDs and Arduino from burning out. Our resistors are 220 Ohms. You can tell by putting their band color sequence (red, red, brown, gold) into a [resistor value calculator](http://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band). We picked 220 Ohms based on the properties of the particular RGB LEDs that we bought. A different LED might need a different resistor. If you want to learn more about resistors and how we picked the resistance value, you can scroll to the very bottom of this tutorial.
 
-**RGB LED**: An RGB LED actually contains three tiny single-color LEDs inside: red, green, and blue. Here is the [datasheet for the particular brand of RGB LEDs](http://cdn.sparkfun.com/datasheets/Components/LED/YSL-R596AR3G4B5C-C10.pdf) we bought. We used the datasheet to determine that a 220 Ohm resistor would work with this LED (if you want details you can read the final section about resistors). However, you won't need to refer to the datasheet to complete the rest of this tutorial.
+**RGB LED**: An RGB LED actually contains three tiny single-color LEDs inside: red, green, and blue. There are four pins on an RGB LED, one for each color and a fourth one for either ground or high voltage depending on the design of your LED (some LEDs are "anodes" and some are "cathodes").
 
-**Jumper wires**:
+Here is the [datasheet for the particular brand of RGB LEDs](http://cdn.sparkfun.com/datasheets/Components/LED/YSL-R596AR3G4B5C-C10.pdf) we bought. We used the datasheet to determine that a 220 Ohm resistor would work with this LED (if you want details you can read the final section about resistors). We also used it to determine that Pin 1 controls red, Pin 2 connects to 5V, Pin 3 controls green, and Pin 4 controls blue. However, you won't need to refer to the datasheet to complete the rest of this tutorial.
 
-**Breadboard**: On
+**Jumper wires**: Jumper wires are normal wires that have had attachments added to the ends to make them easier to connect to pins and breadboards and other circuit components.
+
+**Breadboard**: 
 
 ### How to connect the parts
 
