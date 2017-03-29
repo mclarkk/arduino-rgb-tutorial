@@ -33,11 +33,9 @@ To hook up all the physical components, first you will gather the parts, then yo
 
 Now that you have your parts, it's time to put them together! [Here is the hookup diagram for our circuit](https://raw.githubusercontent.com/mclarkk/arduino-rgb-tutorial/master/Arduino_circuit.png). Your finished circuit will look like something like [this](https://cdn-learn.adafruit.com/guides/images/000/000/113/medium800/project_3_on_breadboard.jpg), except that the black wire will connect to 5V instead of ground.
 
-The one thing this diagram does not show is
+The one thing the hookup diagram does not show is which of the LED pins are connected to which wires.
 
 The LED's pins are numbered in order from Pin 1 to Pin 4. The longest pin of the LED is Pin 2. [Here is an illustration of the LED pin labels](https://cdn.sparkfun.com/assets/learn_tutorials/3/6/0/RGBPinOUt.png), except that our LED's Pin 2 will connect to 5V instead of ground.
-
-To summarize the hookup diagram:
 
 * LED Pin 1 controls red and is connected to the Arduino's Pin 9.
 * LED Pin 2 is a power thing and is connected to the Arduino's 5V pin (other brands of RGB LEDs may require being connected to the GND pin instead).
