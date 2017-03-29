@@ -11,7 +11,7 @@ To hook up all the physical components, first you will gather the parts, then yo
 * 1 x Arduino Uno ([pic](https://www.robomart.com/image/catalog/RM0058/02.jpg)).
 * 3 x resistors ([pic](http://www.goldmine-elec-products.com/images/G440RB.jpg)) with the right resistance values (we provide 220 Ohm resistors. <!--See the very bottom section on Details about Resistors if you're interested in how we got this number).-->
 * 1 x RGB LED ([pic](https://i.stack.imgur.com/QCE8X.png)).
-* 4 x male-to-male jumper wires ([pic](https://cdn.solarbotics.com/products/photos/03e0f1ccebb02b4dc5cc17e395d3049b/45040-dscn0624.jpg?w=800)) or stripped wires ([pic](https://cdn.instructables.com/FZ8/V12B/GYVDJLMY/FZ8V12BGYVDJLMY.MEDIUM.jpg)). If the wire colors are red, blue, green, and black, it will make debugging easier, but is not strictly necessary.
+* 4 x male-to-male jumper wires ([pic](https://cdn.solarbotics.com/products/photos/03e0f1ccebb02b4dc5cc17e395d3049b/45040-dscn0624.jpg?w=800)) or stripped wires ([pic](https://cdn.instructables.com/FZ8/V12B/GYVDJLMY/FZ8V12BGYVDJLMY.MEDIUM.jpg)). If the wire colors are red, blue, green, and black, it will make debugging easier, but is not strictly necessary. Don't be fooled by [male-to-female](https://cdn.sparkfun.com//assets/parts/2/9/8/7/09387-02.jpg) or [female-to-female](https://upload.wikimedia.org/wikipedia/commons/3/33/Female-Female_Jumper_Wire.jpg) jumpers!
 * 1 x breadboard. They come in [half size](https://cdn-shop.adafruit.com/970x728/64-00.jpg) and [full size](https://www.electrokit.com/public/upload/productimage/41936-8616-4.jpg), either one is fine.
 * 1 x USB A to B cable ([pic](https://shop.mchobby.be/142-thickbox_default/cable-usb-type-a-b-arduino-uno.jpg)).
 
@@ -31,7 +31,9 @@ To hook up all the physical components, first you will gather the parts, then yo
 
 ### How to connect the parts
 
-[Here is the hookup diagram for our circuit](https://raw.githubusercontent.com/mclarkk/arduino-rgb-tutorial/master/Arduino_circuit.png).
+Now that you have your parts, it's time to put them together! [Here is the hookup diagram for our circuit](https://raw.githubusercontent.com/mclarkk/arduino-rgb-tutorial/master/Arduino_circuit.png). Your finished circuit will look like something like [this](https://cdn-learn.adafruit.com/guides/images/000/000/113/medium800/project_3_on_breadboard.jpg), except that the black wire will connect to 5V instead of ground.
+
+The one thing this diagram does not show is
 
 The LED's pins are numbered in order from Pin 1 to Pin 4. The longest pin of the LED is Pin 2. [Here is an illustration of the LED pin labels](https://cdn.sparkfun.com/assets/learn_tutorials/3/6/0/RGBPinOUt.png), except that our LED's Pin 2 will connect to 5V instead of ground.
 
@@ -42,12 +44,16 @@ To summarize the hookup diagram:
 * LED Pin 3 controls green and is connected to the Arduino's Pin 10.
 * LED Pin 4 controls blue and is connected to the Arduino's Pin 11.
 
+Start connecting your circuit! Feel free to bend the LED legs however you need to insert them well into the breadboard. Also, so long as no power is flowing through the circuit, you can connect things together in any order.
+
 <!--A couple of things to note:
 
 * Resistors can be connected in either orientation.
 * Other brands of RGB LEDs may require connecting the longest LED pin to one of the Arduino GND (ground) pins instead of the Arduino's 5V pin.-->
 
 ## Programming the Arduino
+
+Now that you have assembled your circuit, it's time to program the Arduino!
 
 Install the [Arduino IDE](https://www.arduino.cc/en/main/software) application on your computer if you haven't already. IDE stands for Integrated Development Environment. The Arduino IDE is a code editor that will allow you to write and upload code to the Arduino and do other useful things.
 
