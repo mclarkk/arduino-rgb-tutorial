@@ -42,10 +42,10 @@ To summarize the hookup diagram:
 * LED Pin 3 controls green and is connected to the Arduino's Pin 10.
 * LED Pin 4 controls blue and is connected to the Arduino's Pin 11.
 
-A couple of things to note:
+<!--A couple of things to note:
 
 * Resistors can be connected in either orientation.
-* Other brands of RGB LEDs may require connecting the longest LED pin to one of the Arduino GND (ground) pins instead of the Arduino's 5V pin.
+* Other brands of RGB LEDs may require connecting the longest LED pin to one of the Arduino GND (ground) pins instead of the Arduino's 5V pin.-->
 
 ## Programming the Arduino
 
