@@ -31,20 +31,20 @@ To hook up all the physical components, first you will gather the parts, then yo
 
 ### How to connect the parts
 
-[Here is the connection diagram for our circuit](https://raw.githubusercontent.com/mclarkk/arduino-rgb-tutorial/master/Arduino_circuit.png).
+[Here is the hookup diagram for our circuit](https://raw.githubusercontent.com/mclarkk/arduino-rgb-tutorial/master/Arduino_circuit.png).
 
-The LED's pins are numbered in order from Pin 1 to Pin 4. The longest pin of the LED is Pin 2. [Here is a diagram](https://cdn.sparkfun.com/assets/learn_tutorials/3/6/0/RGBPinOUt.png), except that our Pin 2 will connect to 5V instead of ground.
+The LED's pins are numbered in order from Pin 1 to Pin 4. The longest pin of the LED is Pin 2. [Here is an illustration of the LED pin labels](https://cdn.sparkfun.com/assets/learn_tutorials/3/6/0/RGBPinOUt.png), except that our LED's Pin 2 will connect to 5V instead of ground.
 
 To summarize the hookup diagram:
 
-* LED Pin 1 controls red and is connected to the Arduino's Pin 11.
+* LED Pin 1 controls red and is connected to the Arduino's Pin 9.
 * LED Pin 2 is a power thing and is connected to the Arduino's 5V pin (other brands of RGB LEDs may require being connected to the GND pin instead).
 * LED Pin 3 controls green and is connected to the Arduino's Pin 10.
 * LED Pin 4 controls blue and is connected to the Arduino's Pin 11.
 
 A couple of things to note:
 
-* It doesn't matter which way you connect the resistors.
+* Resistors can be connected in either orientation.
 * Other brands of RGB LEDs may require connecting the longest LED pin to one of the Arduino GND (ground) pins instead of the Arduino's 5V pin.
 
 ## Programming the Arduino
@@ -55,7 +55,7 @@ Once the Arduino IDE is installed, open the Arduino application. Once open, go t
 
 Next, plug your Arduino Uno into your computer using the USB A to B cable. Go to `Tools > Port` and select the Arduino device. Now you can start uploading programs!
 
-Go to `File > New` then delete the template code in the new window and paste [this code](https://raw.githubusercontent.com/mclarkk/arduino-rgb-tutorial/master/adafruit_example.ino) into the window. Then click the Upload button (second from the left with the right-pointing arrow icon). You should see things happening on the bottom and then the message "Done uploading." Your Arduino should start going through some colors!
+Go to `File > New` then delete the template code in the new window and paste [this code](https://raw.githubusercontent.com/mclarkk/arduino-rgb-tutorial/master/adafruit_example.ino) into the window. Then click the round Upload button (the right-pointing arrow icon located second from the top left). You should see things happening on the bottom and then the message "Done uploading." Your Arduino should start going through some colors!
 
 The example code is a good place to start playing around with controlling the LED!
 
