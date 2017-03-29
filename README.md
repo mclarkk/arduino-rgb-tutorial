@@ -42,7 +42,7 @@ The LED's pins are numbered in order from Pin 1 to Pin 4. The longest pin of the
 * LED Pin 3 controls green and is connected to the Arduino's Pin 10.
 * LED Pin 4 controls blue and is connected to the Arduino's Pin 11.
 
-Start connecting your circuit! Feel free to bend the LED legs however you need to insert them well into the breadboard. Also, so long as no power is flowing through the circuit, you can connect things together in any order.
+Start connecting your circuit! Because the LED's pins are uneven lengths, you will almost certainly have to bend the pins to insert them all the way into the breadboard. Also, so long as no power is flowing through the circuit, you can connect things together in any order.
 
 <!--A couple of things to note:
 
