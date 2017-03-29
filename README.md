@@ -23,11 +23,11 @@ To hook up all the physical components, first you will gather the parts, then yo
 
 <!--Here is the [datasheet for the particular brand of RGB LEDs](http://cdn.sparkfun.com/datasheets/Components/LED/YSL-R596AR3G4B5C-C10.pdf) we bought. We used the datasheet to determine that a 220 Ohm resistor would work with this LED (if you want details about this process feel free to ask!)<!--you can read the final section about resistors). We also used the datasheet to determine what pins should be connected to what. However, you won't need to refer to the datasheet to complete the rest of this tutorial. It's just here to show you what a datasheet looks like.-->
 
-**Jumper wires**: [Jumper wires]((https://cdn.solarbotics.com/products/photos/03e0f1ccebb02b4dc5cc17e395d3049b/45040-dscn0624.jpg?w=800)) are normal wires that have had attachments added to the ends to make them easier to connect to pins and breadboards and other circuit components.
+**Jumper wires**: [Jumper wires](https://cdn.solarbotics.com/products/photos/03e0f1ccebb02b4dc5cc17e395d3049b/45040-dscn0624.jpg?w=800) are normal wires that have had attachments added to the ends to make them easier to connect to pins and breadboards and other circuit components.
 
 **Breadboard**: Breadboards are a convenient way to connect a bunch of electrical components together into circuits. [This picture](http://dm.risd.edu/pbadger/PhysComp/uploads/Devices/LEDbreadboard4.jpg.jpg) shows how the holes are connected together in strips in most breadboards. There are two main parts: The _power rails_ (the vertical strips in the picture) and the _component rails_ (the horizontal strips). The _power rails_ run down the side of the breadboard. Technically you can connect any wire to those rails, but by convention we connect high voltage (for example, 5V) to the red rail labeled with + and we connect ground to the blue rail labeled with -. The _component rails_ are connected in horizontal rows. These rows do not connect across the gap in the middle. Generally you plug various components like (resistors or LEDs) into these rows, and then connect them to the power or ground rails, or to the Arduino.
 
-**USB A to B cable**: [This cable]((https://shop.mchobby.be/142-thickbox_default/cable-usb-type-a-b-arduino-uno.jpg)) is how you will program and power your Arduino Uno and the electrical circuit.
+**USB A to B cable**: [This cable](https://shop.mchobby.be/142-thickbox_default/cable-usb-type-a-b-arduino-uno.jpg) is how you will program and power your Arduino Uno and the electrical circuit.
 
 ### How to connect the parts
 
