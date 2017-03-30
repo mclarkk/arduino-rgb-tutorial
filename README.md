@@ -63,6 +63,8 @@ Go to `File > New` then delete the template code in the new window and paste [th
 
 The example code is a good place to start playing around with controlling the LED!
 
+Another program to try is [this one](https://raw.githubusercontent.com/mclarkk/arduino-rgb-tutorial/master/rainbow_fade.ino). It will flash through the colors and then fade smoothly though the colors. There are a lot of comments in the code, but the code itself is simpler than the length of the file would suggest.
+
 ## More Resources (Optional)
 
 Here are some more links to tutorials about controlling RGB LEDs with Arduino:
