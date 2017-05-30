@@ -61,7 +61,7 @@ Next, plug your Arduino Uno into your computer using the USB A to B cable. Go to
 
 Go to `File > New` then delete the template code in the new window and paste [this code](https://raw.githubusercontent.com/mclarkk/arduino-rgb-tutorial/master/adafruit_example.ino) into the window. Then click the round Upload button (the right-pointing arrow icon located second from the top left). You should see things happening on the bottom and then the message "Done uploading." Your Arduino should start going through some colors!
 
-The example code is a good place to start playing around with controlling the LED! If you are using a cathode LED, setting the pin high for a particular color LED will turn that LED on, as you would expect. For an anode LED, setting it high will turn it _off_, and setting it low will turn it on.
+The example code is a good place to start playing around with controlling the LED! If you are using a cathode LED, setting the pin high for a particular color LED will turn that LED on, as you would expect. For an anode LED, setting it high will turn it _off_, and setting it low will turn it on. The code we provide was written for a cathode LED. However, the code can be run using an anode LED without making any changes! The anode LED will just display a different pattern of colors than a cathode LED (in some sense, the "opposite" colors).
 
 Another program to try is [this one](https://raw.githubusercontent.com/mclarkk/arduino-rgb-tutorial/master/rainbow_fade.ino). It will flash through the colors and then fade smoothly though the colors. There are a lot of comments in the code, but the code itself is simpler than the length of the file would suggest.
 
